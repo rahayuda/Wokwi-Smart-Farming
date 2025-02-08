@@ -3,42 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Firebase Web</title>
+    <title>Smart Farming</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" type="module" defer></script>
 </head>
 <body>
-    <h1>Smart Farming</h1>
-    
-    <table id="sensorData">
-        <tr>
-            <td>Distance</td>
-            <td id="distanceValue">: - cm</td>
-        </tr>
-        <tr>
-            <td>Humidity</td>
-            <td id="humidityValue">: - %</td>
-        </tr>
-        <tr>
-            <td>Temperature</td>
-            <td id="temperatureValue">: - °C</td>
-        </tr>
-    </table>
+  <header>
+    <div class="head"><h3>Smart Farming</h3></div>
+</header>
 
-    <br>
-    
-    <table id="statusTable">
-        <tr>
-            <td>Rumah Kaca</td>
-            <td id="temperatureStatus">: -</td>
-        </tr>
-        <tr>
-            <td>Tanah</td>
-            <td id="humidityStatus">: -</td>
-        </tr>
-        <tr>
-            <td>Hewan Liar</td>
-            <td id="distanceStatus">: -</td>
-        </tr>
-    </table>
+<main>
+
+<div class="left">
+ 
+  <div class="card">Light Intensity<hr>
+    <div id="lightIntensityValue"></div><hr>
+    <div id="lightIntensityStatus"></div>     
+  </div>
+
+</div>
+
+<div class="right">
+
+  <div class="card">Humidity<hr>
+    <div id="humidityValue"></div><hr>
+    <div id="humidityStatus"></div>   
+  </div>
+
+  <div class="card">Temperature<hr>
+    <div id="temperatureValue"></div><hr>
+    <div id="temperatureStatus"></div>     
+  </div>
+
+  <div class="card">Distance<hr>
+    <div id="distanceValue"></div><hr>
+    <div id="distanceStatus"></div>   
+  </div>
+
+</div>
+
+</main>
+
 </body>
 </html>

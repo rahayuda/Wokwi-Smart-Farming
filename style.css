@@ -69,6 +69,18 @@ main {
   width: 100%;
 }
 
+.flag-counter-container {
+  max-width: 100%; 
+  display: flex;
+  justify-content: center;
+}
+
+.flag-counter-container img {
+  width: 100%;
+  height: auto;
+  max-width: 300px; /* Atur sesuai kebutuhan */
+}
+
 #lightIntensityValue {
   font-size: 50px;
 }

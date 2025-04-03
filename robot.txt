@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wokwi-smart-farming.vercel.app/sitemap.xml

@@ -5,7 +5,7 @@ import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: process.env.FIREBASE_API_KEY,
+    apiKey: "AIzaSyAp-xABc3sjcsLa2GFBEOlK0BmdP7BjC2U",
     authDomain: "wokwi-eea2f.firebaseapp.com",
     databaseURL: "https://wokwi-eea2f-default-rtdb.firebaseio.com",
     projectId: "wokwi-eea2f",
